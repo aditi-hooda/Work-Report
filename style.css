@@ -1,3 +1,43 @@
-body{ background-color: blue;}
-h1{ color: black;}
-p{ color: orange;}
+* {
+    font-family: 'Fredoka One', cursive;
+}
+body {
+    background-image: url('./assests/htmlbg.jpg');
+    width:100vw;
+    height: 500px;
+}
+body h1 {
+     color: #fff;
+     font-size: 80px;
+     text-align: center;
+     padding-top: 100px;
+     font-family: 'Fredoka One', cursive;
+}
+.html-page h1 {
+    padding-top: 20%;
+    padding-bottom: 20%;
+     font-size: 150px;
+     color: #000;
+     text-align: center;
+}
+.html-page  {
+    background-color: #679284;
+    margin-top:20%;
+}
+.container-html {
+    background-color: #000;
+    color: #fff;
+    padding-left: 50px;
+ 
+}
+.container-html ul li{
+    list-style-type: none;
+}
+.container-css {
+    background-color: #000;
+    color: #fff;
+    padding-left: 50px;
+}
+.container-css ul li{
+    list-style-type: none;
+}

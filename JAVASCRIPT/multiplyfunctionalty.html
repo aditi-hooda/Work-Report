@@ -1,0 +1,32 @@
+<html>
+
+<head></head>
+
+<body>
+    <h3>Input Box</h3>
+    
+        <input type="text" id="number1" placeholder="Enter Input" >
+        <input type="text" id="number2" placeholder="Enter Input" >
+
+        <button onclick="clicked()"> Multiply</button>
+
+        <p id="Result"></p>
+
+    
+    <script type="text/javascript">
+        function clicked() { 
+            var x = document.getElementById("number1").value;
+            
+            var y = document.getElementById("number2").value;
+
+            var z = x*y;
+            
+            document.getElementById("Result").innerHTML= z;
+    
+        }
+
+    </script>
+
+</body>
+
+</html>
