@@ -1,0 +1,111 @@
+* {
+    font-family: 'Fredoka One', cursive;
+}
+.h2{
+    color: #fff;
+}
+body {
+    background-image: url('./assests/htmlbg.jpg');
+    width:100vw;
+    height: 500px;
+}
+body h1 {
+     color: #fff;
+     font-size: 80px;
+     text-align: center;
+     padding-top: 100px;
+     font-family: 'Fredoka One', cursive;
+}
+.html-page h1 {
+    padding-top: 20%;
+    padding-bottom: 20%;
+     font-size: 80px;
+     color: #000;
+     text-align: center;
+}
+.html-page  {
+    background-color: #679284;
+    margin-top:20%;
+}
+.html-button{
+    background-color: #000;
+    padding-top:30px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+
+}
+.html-button .kGf{
+    width: 20%;
+    height: 40px;
+    background-color: #679284;
+    color: rgb(4, 4, 59);
+    font-size: 30px;
+    border: 1px solid black;
+    border-radius:10px;
+    box-shadow: 0px 0px 2px 2px pink;
+}
+.javscript-page{
+    background-color: #679284;
+    margin-top:20%;
+    height: 33vh;
+}
+.javscript-page h1{
+    padding-top: 20%;
+    padding-bottom: 20%;
+     font-size: 55px;
+     color: #000;
+     text-align: center;
+}
+.container-html {
+    background-color: #000;
+    color: #fff;
+    padding-left: 50px;
+ 
+}
+.container-html ul li{
+    list-style-type: none;
+}
+.container-css {
+    background-color: #000;
+    color: #fff;
+    padding-left: 50px;
+}
+.container-css ul li{
+    list-style-type: none;
+}
+.css-button{
+    background-color: #000;
+    padding-top:30px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+}
+.css-button .GGG{
+    width: 20%;
+    height: 40px;
+    background-color: #679284;
+    color: rgb(4, 4, 59);
+    font-size: 30px;
+    border: 1px solid black;
+    border-radius:10px;
+    box-shadow: 0px 0px 2px 2px pink;
+}
+.hero-button{
+    padding-top:40px;
+    text-align: center;
+ 
+    
+}
+.hero-button .GFG{
+    width: 25%;
+    height: 60px;
+    background-color: #679284;
+    color: black;
+    font-size: 30px;
+    border: 1px solid black;
+    border-radius:10px;
+    box-shadow: 0px 0px 2px 2px pink;
+}
+
+
+   
+  
