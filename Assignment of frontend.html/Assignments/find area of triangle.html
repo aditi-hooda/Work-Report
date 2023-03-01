@@ -1,34 +1,34 @@
-<!DOCTYPE html>
 <html>
+
 <head>
-	<title>Triangle Area Calculator</title>
-</head>
-<body>
-	<label for="sideA">Enter length of side A:</label>
-	<input type="number" id="sideA">
-	<label for="sideB">Enter length of side B:</label>
-	<input type="number" id="sideB">
-	<label for="sideC">Enter length of side C:</label>
-	<input type="number" id="sideC">
-	<button onclick="calculateArea()">Calculate Area</button>
-	<p id="result"></p>
-
 	<script>
-		function calculateArea() {
-			// Get the length of all three sides
-			var a = parseFloat(document.getElementById("sideA").value);
-			var b = parseFloat(document.getElementById("sideB").value);
-			var c = parseFloat(document.getElementById("sideC").value);
+		function Area() {
+			var side1 = Number(document.getElementById("side1").value);
+			var side2 = Number(document.getElementById("side2").value);
+			var side3 = Number(document.getElementById("side3").value);
 
-			// Calculate the semi-perimeter
-			var s = (a + b + c) / 2;
+			var s = (side1 + side2 + side3) / 2;
 
-			// Calculate the area using Heron's formula
-			var area = Math.sqrt(s * (s - a) * (s - b) * (s - c));
 
-			// Display the area on the web page
-			document.getElementById("result").innerHTML = "The area of the triangle is " + area.toFixed(2) + " square units.";
+			var area = Math.sqrt(s * (s - side1) * (s - side2) * (s - side3));
+			document.getElementById("result").innerHTML = "The area of the triangle is " + area;
 		}
 	</script>
+</head>
+
+<body>
+	<label for="side1">Enter length of side 1:</label>
+	<input type="number" id="side1" name="side1"><br><br>
+	<label for="side2">Enter length of side 2:</label>
+	<input type="number" id="side2" name="side2"><br><br>
+	<label for="side3">Enter length of side 3:</label>
+	<input type="number" id="side3" name="side3"><br><br>
+	<button onclick="Area()">Calculate Area</button><br><br>
+	<p id="result"></p>
+	<a href=""><button>View Code</button></a>
+
+
+
 </body>
+
 </html>
