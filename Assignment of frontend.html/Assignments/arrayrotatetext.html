@@ -8,27 +8,34 @@
             padding-left: 25px;
             padding-right: 25px;
         }
+        .a{
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 25px;
+            padding-right: 25px;
+            background-color: black;
+            color: white;
+        }
     </style>
+        <script>
+            function Rotatetext() {
+               const stringElement = document.getElementById('string');
+               
+               let string = stringElement.textContent;
+               string = string.charAt(string.length - 1) + string.slice(0, -1);
+               stringElement.textContent = string;
+               console.log(stringElement)
+            }
+       
+       
+           </script>
 </head>
 
 <body>
-    <button id="rotateButton">Rotate</button>
-    <p id="string"></p>
-    <script>
-        let string = 'TECHQILLA';
-        const stringElement = document.getElementById('string');
+    <button id="rotateButton" onclick="Rotatetext()">Rotate</button>
+    <p id="string">TECHQILLA</p>
+    <a href="https://github.com/aditi-hooda/Work-Report/blob/master/Assignment%20of%20frontend.html/Assignments/arrayrotatetext.html"><button>View Code</button></a>
 
-        document.getElementById('rotateButton').addEventListener('click', () => {
-        
-            string = string.charAt(string.length - 1) + string.slice(0, -1);
-
-            stringElement.textContent = string;
-        });
-
-
-
-
-    </script>
 </body>
 
 </html>
