@@ -1,0 +1,143 @@
+<html>
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+    />
+  </head>
+
+<head>
+	<script>
+		function Area() {
+			var side1 = Number(document.getElementById("side1").value);
+			var side2 = Number(document.getElementById("side2").value);
+			var side3 = Number(document.getElementById("side3").value);
+
+			var s = (side1 + side2 + side3) / 2;
+
+
+			var area = Math.sqrt(s * (s - side1) * (s - side2) * (s - side3));
+			document.getElementById("result").innerHTML = "The area of the triangle is " + area;
+		}
+	</script>
+</head>
+
+<body>
+            <div
+      class="header"
+      style="background-color: black; display: flex; margin-bottom: 5%;padding: 1%;"
+    >
+      <a href="../../index.html">
+        <img
+          src="../../assests/logo final-01.png"
+          style="
+            height: 60px;
+            width: 120px;
+            margin-left: 30px;
+            background-color: white;
+          "
+        />
+      </a>
+      <div
+        class="header-right"
+        style="padding-top: 20px; text-align: center; padding-left: 400px"
+      >
+        <a
+          href="../HTMLTutorial.html"
+          style="
+            font-family: 'Poppins', sans-serif;
+            padding: 10px;
+            padding-right: 60px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 15px;
+            line-height: 25px;
+            color: white;
+            font-weight: 700;
+          "
+        >
+          HTML
+        </a>
+        <a
+          href="../CSSTutorial.html"
+          style="
+            font-family: 'Poppins', sans-serif;
+            padding: 10px;
+            padding-right: 60px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 15px;
+            line-height: 25px;
+            color: white;
+            font-weight: 700;
+          "
+        >
+          CSS
+        </a>
+        <a
+          href="../JAVASCRIPTTutorial.html"
+          style="
+            font-family: 'Poppins', sans-serif;
+            padding: 10px;
+            padding-right: 60px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 15px;
+            line-height: 25px;
+            color: white;
+            font-weight: 700;
+          "
+        >
+          JAVASCRIPT
+        </a>
+        <a
+          href="../Assignments.html"
+          style="
+            font-family: 'Poppins', sans-serif;
+            padding: 10px;
+            padding-right: 60px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 15px;
+            line-height: 25px;
+            color: white;
+            font-weight: 700;
+          "
+        >
+          ASSIGNMENTS
+        </a>
+        <a
+          href="https://github.com/aditi-hooda/Work-Report"
+          style="
+            font-family: 'Poppins', sans-serif;
+            padding: 10px;
+            padding-right: 60px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 15px;
+            line-height: 25px;
+            color: white;
+            font-weight: 700;
+          "
+        >
+          GITHUB
+        </a>
+      </div>
+    </div>
+    <div class="container">
+	<label for="side1">Enter length of side 1:</label>
+	<input type="number" id="side1" name="side1"><br><br>
+	<label for="side2">Enter length of side 2:</label>
+	<input type="number" id="side2" name="side2"><br><br>
+	<label for="side3">Enter length of side 3:</label>
+	<input type="number" id="side3" name="side3"><br><br>
+	<button onclick="Area()">Calculate Area</button><br><br>
+	<p id="result"></p>
+	<a href="https://github.com/aditi-hooda/Work-Report/blob/master/Assignment%20of%20frontend.html/Assignments/find%20area%20of%20triangle.html"><button>View Code</button></a>
+
+
+
+</div>
+  </body>
+
+</html>

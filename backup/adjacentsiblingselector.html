@@ -1,34 +1,125 @@
 <!DOCTYPE html>
-    <html>
-          <head>
-              <style>
-                div + p  {
-                  background-color: yellow;
-                  }
-              </style>
-          </head>
-          <body>
-               
-                <h2>Adjacent Sibling Selector</h2>
+<html>
+  <head>
+    <style>
+      div + p {
+        background-color: yellow;
+      }
+    </style>
+  </head>
+  <body>
+   <div
+      class="header"
+      style="background-color: #fff; display: flex; margin-bottom: 5%"
+    >
+      <a href="../index.html">
+        <img
+          src="../assests/logo final-01.png"
+          style="height: 60px; width: 120px; margin-left: 30px"
+        />
+      </a>
+      <div
+        class="header-right"
+        style="padding-top: 20px; text-align: center; padding-left: 400px"
+      >
+        <a
+          href="./HTMLTutorial.html"
+          style="
+            font-family: 'Poppins', sans-serif;
+            padding: 10px;
+            padding-right: 60px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 15px;
+            line-height: 25px;
+            color: #000;
+            font-weight: 700;
+          "
+        >HTML</a>
+        <a
+          href="./CSSTutorial.html"
+          style="
+            font-family: 'Poppins', sans-serif;
+            padding: 10px;
+            padding-right: 60px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 15px;
+            line-height: 25px;
+            color: #000;
+            font-weight: 700;
+          "
+        >CSS</a>
+        <a
+          href="./JAVASCRIPTTutorial.html"
+          style="
+            font-family: 'Poppins', sans-serif;
+            padding: 10px;
+            padding-right: 60px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 15px;
+            line-height: 25px;
+            color: #000;
+            font-weight: 700;
+          "
+        >JAVASCRIPT</a>
+        <a
+          href="./Assignments.html"
+          style="
+            font-family: 'Poppins', sans-serif;
+            padding: 10px;
+            padding-right: 60px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 15px;
+            line-height: 25px;
+            color: #000;
+            font-weight: 700;
+          "
+        >ASSIGNMENTS</a>
+        <a
+          href="https://github.com/aditi-hooda/Work-Report"
+          style="
+            font-family: 'Poppins', sans-serif;
+            padding: 10px;
+            padding-right: 60px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 15px;
+            line-height: 25px;
+            color: #000;
+            font-weight: 700;
+          "
+        >GITHUB</a>
+      </div>
+    </div>
 
-                <p>The + selector is used to select an element that is directly after another specific element.</p>
-                <p>The following example selects the first p element that are placed immediately after div elements:</p>
+    <h2>Adjacent Sibling Selector</h2>
 
-              <div>
-                  <p>Paragraph 1 in the div.</p>
-                  <p>Paragraph 2 in the div.</p>
-              </div>
+    <p>
+      The + selector is used to select an element that is directly after another
+      specific element.
+    </p>
+    <p>
+      The following example selects the first p element that are placed
+      immediately after div elements:
+    </p>
 
-              <p>Paragraph 3. After a div.</p>
-              <p>Paragraph 4. After a div.</p>
+    <div>
+      <p>Paragraph 1 in the div.</p>
+      <p>Paragraph 2 in the div.</p>
+    </div>
 
-            <div>
-              <p>Paragraph 5 in the div.</p>
-              <p>Paragraph 6 in the div.</p>
-            </div>
+    <p>Paragraph 3. After a div.</p>
+    <p>Paragraph 4. After a div.</p>
 
-            <p>Paragraph 7. After a div.</p>
-            <p>Paragraph 8. After a div.</p>
+    <div>
+      <p>Paragraph 5 in the div.</p>
+      <p>Paragraph 6 in the div.</p>
+    </div>
 
-        </body>
-  </html>
+    <p>Paragraph 7. After a div.</p>
+    <p>Paragraph 8. After a div.</p>
+  </body>
+</html>

@@ -1,25 +1,25 @@
 * {
-  font-family: 'Fredoka One', cursive;
+  font-family: "Fredoka One", cursive;
 }
 
 .header {
   background-color: #fff;
   display: flex;
-
+  margin-bottom: 5%;
 }
 
-.header img{
+.header img {
   height: 60px;
   width: 120px;
   margin-left: 30px;
 }
-.header-right{
+.header-right {
   padding-top: 20px;
   text-align: center;
   padding-left: 400px;
 }
-.header-right a{
-  font-family: 'Poppins', sans-serif;
+.header-right a {
+  font-family: "Poppins", sans-serif;
   padding: 10px;
   padding-right: 60px;
   text-align: center;
@@ -35,7 +35,7 @@
 }
 
 body {
-  background-image: url('./assests/htmlbg.jpg');
+  background-image: url("./assests/htmlbg.jpg");
 }
 
 body h1 {
@@ -43,7 +43,7 @@ body h1 {
   font-size: 80px;
   text-align: center;
   padding-top: 100px;
-  font-family: 'Fredoka One', cursive;
+  font-family: "Fredoka One", cursive;
 }
 
 .html-page h1 {
@@ -64,7 +64,6 @@ body h1 {
   padding-top: 30px;
   padding-bottom: 20px;
   padding-left: 10px;
-
 }
 
 .html-button .kGf {
@@ -77,23 +76,22 @@ body h1 {
   border-radius: 10px;
   box-shadow: 0px 0px 2px 2px pink;
 }
-.header-html{
+.header-html {
   background-color: #fff;
   display: flex;
-  
 }
-.header-html img{
+.header-html img {
   height: 60px;
   width: 120px;
   margin-left: 30px;
 }
-.header-right-html{
+.header-right-html {
   padding-top: 20px;
   text-align: center;
   padding-left: 400px;
 }
-.header-right-html a{
-  font-family: 'Poppins', sans-serif;
+.header-right-html a {
+  font-family: "Poppins", sans-serif;
   padding: 10px;
   padding-right: 60px;
   text-align: center;
@@ -114,22 +112,12 @@ body h1 {
   text-align: center;
 }
 
-.container-html {
-  color: #fff;
-}
-
-.container-html ul li {
+.container ul li {
   list-style-type: none;
 }
 
-.container-css {
-  background-color: #000;
+.container {
   color: #fff;
-  padding-left: 50px;
-}
-
-.container-css ul li {
-  list-style-type: none;
 }
 
 .css-button {
