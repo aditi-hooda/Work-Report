@@ -1,37 +1,78 @@
 <html>
-
-<head>
-    <style>
-
-    </style>
-</head>
-
-<body>
-    <div id="calculater">
-        <form name="form">
-            <input id="calc" type="text" name="answer"><br><br>
-            <input type="button" value="9" onclick="number('9')">
-            <input type="button" value="8" onclick="number('8')">
-            <input type="button" value="7" onclick="number('7')">
-            <input type="button" value="+" onclick="number('+')"><br><br>
-            <input type="button" value="6" onclick="number('6')">
-            <input type="button" value="5" onclick="number('5')">
-            <input type="button" value="4" onclick="number('4')">
-            <input type="button" value="_" onclick="number('_')"><br><br>
-            <input type="button" value="3" onclick="number('3')">
-            <input type="button" value="2" onclick="number('2')">
-            <input type="button" value="1" onclick="number('1')">
-            <input type="button" value="*" onclick="number('*')"><br><br>
-            <input type="button" value="/" onclick="number('/')">
-            <input type="button" value="0" onclick="number('0')">
-            <input type="button" value="." onclick="number('.')">
-        </form>
-    </div>
+  <head>
+    <style></style>
     <script>
-        function number(val) {
-            document.getElementById('calc').value = val;
-        }
+      function number(val) {
+        document.getElementById("calc").value += val;
+      }
     </script>
-</body>
+  </head>
 
+  <body>
+    <div id="calculater">
+      <table>
+        <tr>
+          <td>
+            <input id="calc" type="text" name="answer" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <input type="button" value="1" onclick="number('1')" />
+          </td>
+          <td>
+            <input type="button" value="2" onclick="number('2')" />
+          </td>
+          <td>
+            <input type="button" value="3" onclick="number('3')" />
+          </td>
+          <td>
+            <input type="button" value="+" onclick="number('+')" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <input type="button" value="4" onclick="number('4')" />
+          </td>
+          <td>
+            <input type="button" value="5" onclick="number('5')" />
+          </td>
+          <td>
+            <input type="button" value="6" onclick="number('6')" />
+          </td>
+          <td>
+            <input type="button" value="-" onclick="number('-')" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <input type="button" value="7" onclick="number('7')" />
+          </td>
+          <td>
+            <input type="button" value="8" onclick="number('8')" />
+          </td>
+          <td>
+            <input type="button" value="9" onclick="number('9')" />
+          </td>
+          <td>
+            <input type="button" value="*" onclick="number('*')" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <input type="button" value="C" onclick="Clear()" />
+          </td>
+          <td>
+            <input type="button" value="0" onclick="number('0')" />
+          </td>
+          <td>
+            <input type="button" value="=" onclick="Eval()" />
+          </td>
+          <td>
+            <input type="button" value="/" onclick="number('/')" />
+          </td>
+        </tr>
+      </table>
+    </div>
+  </body>
 </html>
