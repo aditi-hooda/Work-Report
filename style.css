@@ -36,8 +36,6 @@
 
 body {
   background-image: url('./assests/htmlbg.jpg');
-  width: 100vw;
-  height: 500px;
 }
 
 body h1 {
@@ -107,7 +105,6 @@ body h1 {
 .javscript-page {
   background-color: #679284;
   margin-top: 20%;
-  height: 33vh;
 }
 .javscript-page h1 {
   padding-top: 20%;
@@ -118,10 +115,7 @@ body h1 {
 }
 
 .container-html {
-  background-color: #000;
   color: #fff;
-  padding-left: 50px;
-
 }
 
 .container-html ul li {
