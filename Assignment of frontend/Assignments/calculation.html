@@ -1,5 +1,10 @@
 <html>
-
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+    />
+  </head>
 <head>
   <style>
     #calculater {
@@ -14,16 +19,18 @@
 
     #calc {
       width: 100%;
-      box-shadow:4px 4px #D4F0F7;
+      box-shadow: 4px 4px #D4F0F7;
     }
 
     table {
       width: 100%;
     }
-    table tr td{
+
+    table tr td {
       padding-bottom: 13px;
-      
+
     }
+
     input[type="button"] {
       width: 40px;
       height: 40px;
@@ -33,14 +40,15 @@
       border-radius: 5px;
       margin-right: 5px;
       margin-bottom: 5px;
-      box-shadow:4px 4px #D4F0F7;
-      
+      box-shadow: 4px 4px #D4F0F7;
+
     }
 
     input[type="button"].operator {
       background-color: #FFF200;
     }
-    input[type="button"].opera{
+
+    input[type="button"].opera {
       background-color: rgb(236, 87, 87);
     }
 
@@ -55,10 +63,11 @@
       margin-bottom: 10px;
       border-radius: 5px;
     }
-    a{
-       text-align: center;
-       display: block;
-       padding-top: 30px;
+
+    .viewCode {
+      text-align: center;
+      display: block;
+      padding-top: 30px;
     }
   </style>
   <script>
@@ -78,7 +87,108 @@
 </head>
 
 <body>
-  <div id="calculater">
+  <div
+      class="header"
+      style="background-color: black; display: flex; margin-bottom: 5%;padding: 1%;"
+    >
+      <a href="../../index.html">
+        <img
+          src="../../assests/logo final-01.png"
+          style="
+            height: 60px;
+            width: 120px;
+            margin-left: 30px;
+            background-color: white;
+          "
+        />
+      </a>
+      <div
+        class="header-right"
+        style="padding-top: 20px; text-align: center; padding-left: 400px"
+      >
+        <a
+          href="../HTMLTutorial.html"
+          style="
+            font-family: 'Poppins', sans-serif;
+            padding: 10px;
+            padding-right: 60px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 15px;
+            line-height: 25px;
+            color: white;
+            font-weight: 700;
+          "
+        >
+          HTML
+        </a>
+        <a
+          href="../CSSTutorial.html"
+          style="
+            font-family: 'Poppins', sans-serif;
+            padding: 10px;
+            padding-right: 60px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 15px;
+            line-height: 25px;
+            color: white;
+            font-weight: 700;
+          "
+        >
+          CSS
+        </a>
+        <a
+          href="../JAVASCRIPTTutorial.html"
+          style="
+            font-family: 'Poppins', sans-serif;
+            padding: 10px;
+            padding-right: 60px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 15px;
+            line-height: 25px;
+            color: white;
+            font-weight: 700;
+          "
+        >
+          JAVASCRIPT
+        </a>
+        <a
+          href="../Assignments.html"
+          style="
+            font-family: 'Poppins', sans-serif;
+            padding: 10px;
+            padding-right: 60px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 15px;
+            line-height: 25px;
+            color: white;
+            font-weight: 700;
+          "
+        >
+          ASSIGNMENTS
+        </a>
+        <a
+          href="https://github.com/aditi-hooda/Work-Report"
+          style="
+            font-family: 'Poppins', sans-serif;
+            padding: 10px;
+            padding-right: 60px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 15px;
+            line-height: 25px;
+            color: white;
+            font-weight: 700;
+          "
+        >
+          GITHUB
+        </a>
+      </div>
+    </div>
+  <div id="calculater" class="container">
     <input id="calc" type="text" name="answer" />
     <table>
 
@@ -135,12 +245,15 @@
           <input type="button" value="=" onclick="Eval()" />
         </td>
         <td>
-          <input type="button" value="/" onclick="number('/')" class="operator"/>
+          <input type="button" value="/" onclick="number('/')" class="operator" />
         </td>
       </tr>
     </table>
   </div>
-  <a href="https://github.com/aditi-hooda/Work-Report/blob/master/Assignment%20of%20frontend/Assignments/calculation.html"><button>View Code</button></a>
+  <a
+  class="viewCode"
+    href="https://github.com/aditi-hooda/Work-Report/blob/master/Assignment%20of%20frontend/Assignments/calculation.html"><button>View
+      Code</button></a>
 </body>
 
 </html>
